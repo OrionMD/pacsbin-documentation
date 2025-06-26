@@ -9,10 +9,8 @@ a.title {
 	flex-direction: column !important;
 	align-items: flex-start !important;
     padding-top: 15px;
-}
+}*/
 a.title span {
-    opacity: 0.5;
-    margin-top: 15px;
-    padding-left: 5px;
-    font-size: small;
-} */
+  opacity: 0.5;
+  font-size: 21px;
+}
