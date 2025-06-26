@@ -1,7 +1,7 @@
 export default {
   title: "Pacsbin Docs",
   description: "Detailed documentation for the Pacsbin platform.",
-  base: "/documentation/",
+//   base: "/documentation/",
   lastUpdated: true,
   themeConfig: {
     lastUpdated: {
