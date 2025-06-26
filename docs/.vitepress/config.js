@@ -12,7 +12,7 @@ export default {
       },
     },
     logo: "/logo-dark.svg",
-    siteTitle: "Docs",
+    siteTitle: "docs",
     search: {
       provider: "local",
     },
