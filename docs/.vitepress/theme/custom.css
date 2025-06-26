@@ -1,0 +1,18 @@
+/* :root {
+    --vp-nav-height: 100px;
+}
+.curtain {
+    top: calc(var(--vp-nav-height) * -1) !important;
+}
+
+a.title {
+	flex-direction: column !important;
+	align-items: flex-start !important;
+    padding-top: 15px;
+}
+a.title span {
+    opacity: 0.5;
+    margin-top: 15px;
+    padding-left: 5px;
+    font-size: small;
+} */

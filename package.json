@@ -1,0 +1,19 @@
+{
+  "name": "pacsbin-documentation",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --port 3005",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "keywords": [],
+  "author": "Jason Hostetter",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "vitepress": "1.6.3",
+    "vue": "^3.3.4"
+  },
+  "packageManager": "pnpm@7.33.7+sha512.7afe2410642b39c698df46da4ce5c7231a5cce360698d69f8cf8f42257d40b3e43f231053b07b8de849fd4ffbf4a71ff57b835137777a352388f3d3da747200e"
+}
