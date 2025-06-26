@@ -1,12 +1,12 @@
 # Account management
 
-## Secondary emails
+<!-- ## Secondary emails
 
 ## Limits
 
 ## Joining an organization
 
-## Pacsbin plans
+## Pacsbin plans -->
 
 ### Basic
 

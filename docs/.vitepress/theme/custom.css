@@ -14,3 +14,8 @@ a.title span {
   opacity: 0.5;
   font-size: 21px;
 }
+
+h5 {
+  font-size: 0.8rem;
+  opacity: 0.5;
+}

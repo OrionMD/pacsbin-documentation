@@ -1,6 +1,3 @@
-# About
-
-## What is Pacsbin?
 Pacsbin is a cloud platform for storing, sharing, and viewing anonymized medical
 imaging studies for educational and research purposes.
 

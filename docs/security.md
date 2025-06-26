@@ -12,8 +12,9 @@ listed below for specifics and certifications.
   https://www.digitalocean.com/trust/certification-reports, including SOC2
   compliance at all US data centers.
 
-- The Pacsbin platform uses Fly.io as a cloud VM provider. Fly.io
-  is SOC2 compliant and has security documentation here: https://fly.io/docs/about/security/
+- The Pacsbin platform uses Cloudflare as a cloud application server and storage
+  provider. Cloudflare is SOC2 compliant and has security documentation here:
+  https://www.cloudflare.com/trust-hub/compliance-resources/
 
 - Amazon Web Services (AWS) is used for object storage and some data processing
   pipelines. SOC reports can be found here:
