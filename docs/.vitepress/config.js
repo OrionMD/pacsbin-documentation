@@ -1,7 +1,7 @@
 export default {
   title: "Pacsbin Docs",
   description: "Detailed documentation for the Pacsbin platform.",
-//   base: "/documentation/",
+  //   base: "/documentation/",
   lastUpdated: true,
   themeConfig: {
     lastUpdated: {
@@ -26,21 +26,24 @@ export default {
         text: "News",
         collapsed: false,
         items: [
-          { text: "The road to 2.0", link: "/news/20250626-the-road-to-2.0" },
-        //   {
-        //     text: "New docs site!",
-        //     link: "/news/20250626-new-documentation-site",
-        //   },
-        //   {
-        //     text: "More",
-		// 	collapsed: true,
-        //     items: [
-        //       {
-        //         text: "New docs site!",
-        //         link: "/news/20250626-new-documentation-site",
-        //       },
-        //     ],
-        //   },
+          {
+            text: "The road to 2.0 - June 2025",
+            link: "/news/20250626-the-road-to-2.0",
+          },
+          //   {
+          //     text: "New docs site!",
+          //     link: "/news/20250626-new-documentation-site",
+          //   },
+          //   {
+          //     text: "More",
+          // 	collapsed: true,
+          //     items: [
+          //       {
+          //         text: "New docs site!",
+          //         link: "/news/20250626-new-documentation-site",
+          //       },
+          //     ],
+          //   },
         ],
       },
       {
