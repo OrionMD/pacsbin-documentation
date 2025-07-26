@@ -31,3 +31,9 @@ integrations are set up with the assistance of your hospital or institution's
 Radiology IT administrators. If you are interested in setting up an integration,
 please contact your IT administrators to start the process, and reach out to us
 at contact@pacsbin.com
+
+## Using DIMSE instead
+If your PACS or VNA vendor does not support (or has limited support) for
+DICOMweb, we have created a simple DIMSE to DICOMweb proxy server to enable
+integrating the uploader with legacy systems. See
+[here](/integration/dimse-proxy)

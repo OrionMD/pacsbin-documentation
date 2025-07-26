@@ -58,8 +58,9 @@ export default {
       {
         text: "PACS Integration",
         items: [
-          { text: "Introduction", link: "/integration-intro" },
-          { text: "Configuration", link: "/integration-config" },
+          { text: "Introduction", link: "/integration/integration-intro" },
+          { text: "Configuration", link: "/integration/integration-config" },
+          { text: "DIMSE-DICOMweb Proxy", link: "/integration/dimse-proxy" },
         ],
       },
       {
