@@ -1,13 +1,14 @@
 # DIMSE to DICOMweb proxy server
 
-If your image archive has limited or no support for DICOMweb, I have created a
+If your image archive has limited or no support for DICOMweb, you can use our
 simple proxy server to translate incoming DICOMweb requests to DIMSE, and DIMSE
 responses back to DICOMweb. This is an incomplete implementation of the
-standard, serving specifically the purposes of the Pacsbin uploader.
+standard, serving specifically the purposes of the Pacsbin uploader, so do not
+rely on this server for general purpose DIMSE to DICOMweb proxying.
 
 This server can be installed on a local linux virtual machine at your
-institution and configured to
-act as a DIMSE peer to forward requests to your image archive.
+institution and configured to act as a DIMSE peer to forward requests to your
+image archive.
 
 ## Quick start
 
@@ -103,3 +104,7 @@ Here are the important configuration parameters:
   }
 }
 ```
+
+Credit to the amazing [pure javascript implementation of
+DIMSE](https://github.com/PantelisGeorgiadis/dcmjs-dimse) by Pantelis Georgiadis
+on which this application is built.
