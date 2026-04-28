@@ -1,5 +1,7 @@
 # Configuring Pacsbin integration
 
+## DICOMweb
+
 If your image archive fully supports DICOMweb, integrating with Pacsbin is very
 straightforward. The following data is needed:
 
@@ -16,7 +18,23 @@ WADO: http://example.edu/pacs/dicomweb/wado
 Note that these two urls may be the same, depending on your archive's
 configuration.
 
-That's it!
+
+## Setting up PACS link
+
+After your DICOMweb link has been established, allow your users to launch the
+Pacsbin uploader by launching a web browser with a link specific to your
+organization, such as:
+
+`https://pacsbin.com/c/upload?org=[your_org_id_here]`
+
+Most PACS systems allow configuration to launch a browser to a specific URL
+using a button or hotkey.
+
+If your PACS launcher configuration allows entry of
+contextual information into the URL, you can pre-fill the study Accession Number
+in the uploader search by adding a query parameter to the URL:
+
+`https://pacsbin.com/c/upload?org=[your_org_id_here]&accession=[study_accession_number]`
 
 ## Common issues
 

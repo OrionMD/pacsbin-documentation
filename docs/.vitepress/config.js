@@ -27,6 +27,10 @@ export default {
         collapsed: false,
         items: [
           {
+            text: "Hello, v2! - April 2026",
+            link: "/news/20260428-hello-v2",
+          },
+          {
             text: "The road to 2.0 - June 2025",
             link: "/news/20250626-the-road-to-2.0",
           },
