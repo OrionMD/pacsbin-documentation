@@ -20,7 +20,10 @@ export default {
     sidebar: [
       {
         text: "Introduction",
-        items: [{ text: "About", link: "/" }],
+        items: [
+          { text: "About", link: "/" },
+          { text: "Changelog", link: "/changelog" },
+        ],
       },
       {
         text: "News",
