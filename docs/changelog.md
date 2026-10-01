@@ -1,6 +1,6 @@
 # Changelog
 
-User-facing changes to Pacsbin, newest first.
+User-facing changes to Pacsbin.
 
 ## 2.1.0 — 2026-10-01
 
