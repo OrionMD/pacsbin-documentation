@@ -1,6 +1,20 @@
 # Changelog
 
-User-facing changes to Pacsbin.
+User-facing changes to Pacsbin, newest first.
+
+## 2.2.0 — 2026-10-16
+
+### New
+- Redesigned home page, with demo videos for the viewer, uploader and quiz, updated device mockups, and a layout that works on phones.
+- The embeddable viewer client is now published at a stable, versioned URL (`pacsbin-client.v1.js`); the old URL keeps working.
+
+### Improved
+- Embedded viewer reliably detects the viewer's address even when pacsbin.com redirects from www.
+- Setting a viewport from the embed client now supports bookmark query strings.
+
+### Fixed
+- Images without a Modality tag, such as stripped specimen photos, now display instead of failing to render.
+- The www.pacsbin.com address now resolves correctly.
 
 ## 2.1.0 — 2026-10-01
 
