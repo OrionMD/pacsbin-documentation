@@ -2,6 +2,26 @@
 
 User-facing changes to Pacsbin, newest first.
 
+## 2.3.1 — 2026-11-12
+
+### Fixed
+- PET series on liteVNA now load instead of staying on an empty, endlessly loading viewport.
+- If a series fails to load, the viewport now shows an error. You can click it or drop a series on it to retry.
+- Passwords must now be at least 8 characters.
+
+## 2.3.0 — 2026-10-30
+
+### New
+- "Report slow loading": tap the quality dot in a viewport's corner to send your view's loading measurements with a note. The viewer also offers this if nothing has drawn after 10 seconds.
+
+### Improved
+- Cases open faster, with fewer sequential database round trips and automatic retry of stalled reads.
+- Restyled pricing page to match the new home page.
+
+### Fixed
+- Partial multipart responses are now handled correctly by the image loader.
+- Fixed the error page.
+
 ## 2.2.0 — 2026-10-16
 
 ### New
