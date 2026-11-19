@@ -2,6 +2,17 @@
 
 User-facing changes to Pacsbin, newest first.
 
+## 2.4.0 — 2026-11-19
+
+### New
+- The home page shows live Pacsbin numbers (cases viewed, images served), for the last 24 hours or 30 days.
+
+### Improved
+- Cases and playlists open faster: the case, its first series and images, and the image decoder start loading as soon as the page does, and image access is quicker when many people open the same case.
+
+### Fixed
+- When the database is briefly overloaded, pages now fail quickly with a "temporarily unavailable" error instead of hanging or showing a Cloudflare error page, and recover sooner.
+
 ## 2.3.1 — 2026-11-12
 
 ### Fixed
