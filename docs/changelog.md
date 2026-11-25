@@ -2,6 +2,25 @@
 
 User-facing changes to Pacsbin, newest first.
 
+## 2.5.0 — 2026-11-25
+
+### New
+- Rotate and flip tools in the viewer: rotate 90° right or left, flip horizontally or vertically, or drag to rotate to any angle.
+- Previous and Next case buttons in the playlist viewer, on desktop and mobile.
+
+### Improved
+- Signing in with Google now works when your email already has a password account. The two are linked when Google can verify the address. If your email was never confirmed, you're asked first, and linking removes the old password and signs out other sessions.
+- Resetting your password now signs out all sessions and revokes API keys.
+
+### Fixed
+- Links and bookmarks now restore rotation and flips, and keep zoom and pan on devices without graphics acceleration.
+- Reset now fully undoes rotation on MPR views.
+- The middle mouse button zooms again, as it did in v1.
+- Submitting a quiz no longer fails when an answer outline is on an angled series.
+- Mark-the-image questions now count a mark only on the outline's own slice, and score marks correctly inside ellipses on sagittal and angled images.
+- Embedded viewers now respond to the embedding page in Safari.
+- Closed a sign-in security hole that could redirect you to another site.
+
 ## 2.4.0 — 2026-11-19
 
 ### New
